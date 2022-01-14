@@ -1,6 +1,7 @@
 List of strippers
 ```"Strippers"
 	[CS:S] ze_ffxii_westersand_v8_zeta1 - Unknown Mode
+	[CS:S] ze_ffvii_mako_russianversion134
 	[CS:GO] ze_Fapescape_rote - Hell Difficulty
 	[CS:GO] ze_Tyranny_v5_2k3 - Rage mode
 ```
@@ -8,8 +9,6 @@ List of strippers
 [CS:S] ze_ffxii_westersand_v8_zeta1 - Unknown Mode
 ```"Westersand_v8_zeta1"
 	Simply making ze_ffxii_westersand_v8_zeta1 harder
-
-	Put "ze_ffxii_westersand_v8zeta1.cfg" at "<your_server_folder>\csgo\addons\stripper\maps"
 
 	After starting map - press "Insane mode" button on admin room. To teleport in, type "setpos -9656 -3080 2391", and then noclip (or directly noclip in, if you know where the room located).
 
@@ -20,13 +19,16 @@ List of strippers
 	+50% dmg from everything; +20% laser speed; Changed color of lasers.
 ```
 
+[CS:S] ze_ffvii_mako_russianversion134
+```"mako_russianversion134"
+	Balance fixes and many more. Makes map fully balanced and enjoyable to play.
+
+	Huge thanks to: MOLTARD, NOCTALI, ZACADE, NEON for important fixes, from mako v5_3.
+```
+
 [CS:GO] ze_Fapescape_rote - Hell Difficulty
 ```"Fapescape_rote"
 	To use this:
-
-	Put "ze_fapescape_rote_v1_3.cfg" at "<your_server_folder>\csgo\addons\stripper\maps"
-
-	Put folder "sound" at "<your_server_folder>\csgo" also don't forget about FastDL to let people download new music.
 
 	Features of HELL DIFFICULTY:
 
@@ -45,10 +47,6 @@ List of strippers
 [CS:GO] ze_Tyranny_v5_2k3 - Rage Mode
 ```"Tyranny_v5_2k3"
 	To use this:
-
-	Put "Stripper/Tyranny_v5_2k3.cfg" at "<your_server_folder>\csgo\addons\stripper\maps" (stripper)
-	Put "EntWatch/Tyranny_v5_2k3.cfg" at "<your_server_folder>\csgo\cfg\EntWatch\maps" (entwatch)
-	Put folder "sound" at "<your_server_folder>\csgo" also don't forget about FastDL to let people download new music.
 
 	Features:
 
