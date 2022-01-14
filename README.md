@@ -1,11 +1,11 @@
-**-->** List of strippers
+List of strippers
 ```"Strippers"
 	[CS:S] ze_ffxii_westersand_v8_zeta1 - Unknown Mode
 	[CS:GO] ze_Fapescape_rote - Hell Difficulty
 	[CS:GO] ze_Tyranny_v5_2k3 - Rage mode
 ```
 
-**-->** [CS:S] ze_ffxii_westersand_v8_zeta1 - Unknown Mode
+[CS:S] ze_ffxii_westersand_v8_zeta1 - Unknown Mode
 ```"Westersand_v8_zeta1"
 	Simply making ze_ffxii_westersand_v8_zeta1 harder
 
@@ -20,7 +20,7 @@
 	+50% dmg from everything; +20% laser speed; Changed color of lasers.
 ```
 
-**-->** [CS:GO] ze_Fapescape_rote - Hell Difficulty
+[CS:GO] ze_Fapescape_rote - Hell Difficulty
 ```"Fapescape_rote"
 	To use this:
 
@@ -42,8 +42,7 @@
 	Thanks for https://steamcommunity.com/id/heyfumi/ for helping.
 ```
 
-**-->** [CS:GO] Tyranny_v5_2k3 - Rage Mode
-
+[CS:GO] Tyranny_v5_2k3 - Rage Mode
 ```"Tyranny_v5_2k3"
 	To use this:
 
