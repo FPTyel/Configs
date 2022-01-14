@@ -42,7 +42,7 @@ List of strippers
 	Thanks for https://steamcommunity.com/id/heyfumi/ for helping.
 ```
 
-[CS:GO] Tyranny_v5_2k3 - Rage Mode
+[CS:GO] ze_Tyranny_v5_2k3 - Rage Mode
 ```"Tyranny_v5_2k3"
 	To use this:
 
