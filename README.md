@@ -28,8 +28,6 @@ List of strippers
 
 [CS:GO] ze_Fapescape_rote - Hell Difficulty
 ```"Fapescape_rote"
-	To use this:
-
 	Features of HELL DIFFICULTY:
 
 	1. Lightning from extreme mode will ignite players for 10 seconds, have +50% more damage, longer time to be active. But longer time to cast (+100%), periodically cast longer (+7 sec), much better vision to see.
@@ -46,8 +44,6 @@ List of strippers
 
 [CS:GO] ze_Tyranny_v5_2k3 - Rage Mode
 ```"Tyranny_v5_2k3"
-	To use this:
-
 	Features:
 
 	1. New materia, Staff of Kings. It has 16 effects (ultimative variations of materias for zombies, humans). Also contain extreme-danger MEGA-ULTIMA, which is dangerous for everyone.
