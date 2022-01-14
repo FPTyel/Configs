@@ -1,84 +1,64 @@
-**-->** DarkerZ Entwatch template
-```"entities"
-{
-	"0"
-	{
-		"name"				""			//String, FullName of Item (Chat)
-		"shortname"			""			//String, ShortName of Item (Hud)
-		"color"				""			//String, One of the colors. (Chat, Glow)
-		"buttonclass"			""			//String, Button Class, May matter "game_ui" for Right Click activation method
-		"filtername"			""			//String, Filter for Activator
-		"blockpickup"			"false"			//Bool, The item cannot be pick up
-		"allowtransfer"			"false"			//Bool, Allow admins to transfer an item
-		"forcedrop"			"false"			//Bool, Upon death or disconnection of the player, the item will be thrown out
-		"chat"				"false"			//Bool, Display chat items
-		"chat_uses"			"false"			//Bool, Display chat someone is using an item(if disabled chat)
-		"hud"				"false"			//Bool, Display Hud items
-		"hammerid"			"0"			//Integer, Special weapon HammerID
-		"energyid"			"0"			//Integer, NEW! Math counter HammerID (For modes 6 & 7)
-		"mode"				"0"			//Integer, Mode for Item. 1 = Spam protection only, 2 = Cooldowns, 3 = Limited uses, 4 = Limited uses with cooldowns, 5 = Cooldowns after multiple uses, 6 = Energy - stops when minimum reached, 7 = Energy - stops when maximum hit
-		"maxuses"			"0"			//Integer, Maximum uses for modes 3,4,5
-		"cooldown"			"0"			//Integer, Cooldown of item for modes 2,4,5
-		"buttonid"			"0"			//Integer, NEW! Allows you to set the main button for which the cooldown will be considered. Use HammerID of button
-		"trigger"			"0"			//Integer, Sets a trigger that a restrict player cannot activate
-		"pt_spawner"			""			//String, NEW! Allows admins to spawn items. Can break the gameplay of the game on the map. Indicate Point_Template, which spawn the item
-		"physbox"			"false"			//Bool, Need module physbox. May be omitted. If the item has a func_physbox, then teammates can shoot through him. Also the item does not ricochet grenades
-		"use_priority"		"true"		//Bool, Enabled by default. You can disable the forced pressing of the button on a specific it
-```
-**-->** GFL bosshud template
-```"math_counter"
-{
-    "config" //Опционально
-    {
-        "MultBoss"            "" //Показывать несколько босс хп одновременно. 1/0, по стандарту 0
-        "BossBeatenShowTopDamage"    "" //Показывать топ дамагеров и выдавать им кредиты. 1/0, по стандарту 1
-    }
-    "0"
-    {
-        //пример с math_counter
-        "HP_counter"        "" //targetname основное хп у math_counter
-        "HPbar_counter"        "" //targetname полоска хп у math_counter, если достигнуто минимальное или максимальное значение, то босс умрет (если есть)
-        "HPinit_counter"    "" //targetname дополнительное хп у math_counter, которое будет возвращать основному math_counter хп при достижении минимального или максимального значения (если есть)
-        "CustomText"        "" //Имя босса
-        "HPbar_min"        "" //Минимальное значение полоски хп у math_counter (если есть)
-        "HPbar_max"        "" //Максимальное значение полоски хп у math_counter (если есть)
-        "HPbar_default"        "" //Стандартное значение хп у math_counter (если есть)
-        "HPbar_mode"        "" //Какой тип полоски хп у math_counter, 1=OnHitMin (мин. значение) 2=OnHitMax (макс. значение) (если есть)
-        "Money"                "" //Сколько денег выдавать за попадание по боссу (если указать 0, то выдавать не будет), если не писать, то будет выдаваться из конфига bosshud.txt
-    }
-    "1"
-    {
-        //примеры с func_breakable, func_physbox или func_physbox_multiplayer
-        "Type"            "breakable" //Тип
-        "BreakableName"        "" //targetname у func_breakable, func_physbox или func_physbox_multiplayer
-        "CustomText"        "" //Какое имя босса показывать игрокам
-    }
-}
-```	
-
-**-->** net4all (botox) bosshud template
-```"bosses"
-{
-	"0"
-	{
-		"name"				""
-		"method"			"hpbar" // hpbar( 3 math_counter), counter(1 math_counter), breakable(func_breakable и т.д.)
-
-		"iterator"			""
-		"counter"			""
-		"backup"			""
-	}
-}
+**-->** List of strippers
+```"Strippers"
+	[CS:S] ze_ffxii_westersand_v8_zeta1 - Unknown Mode
+	[CS:GO] ze_Fapescape_rote - Hell Difficulty
+	[CS:GO] ze_Tyranny_v5_2k3 - Rage mode
 ```
 
-**-->** CS:GO colors
-```red - {red} {darkred} {lightred}
-blue - {lightblue} {blue} {cyan}
-yellow - {yellow} {olive}
-green - {green} {lightgreen} {lime}
-orange - {orange} {darkorange}
-white - {default} {white}
-purple - {purple} {magenta}
-pink - {pink}
-gray - {silver} {a} {d} {bluegrey} {grey} {gray}
+**-->** [CS:S] ze_ffxii_westersand_v8_zeta1 - Unknown Mode
+```"Westersand_v8_zeta1"
+	Simply making ze_ffxii_westersand_v8_zeta1 harder
+
+	Put "ze_ffxii_westersand_v8zeta1.cfg" at "<your_server_folder>\csgo\addons\stripper\maps"
+
+	After starting map - press "Insane mode" button on admin room. To teleport in, type "setpos -9656 -3080 2391", and then noclip (or directly noclip in, if you know where the room located).
+
+	If you wish to play without Insane mode - it's on your own ;)
+
+	Features of UNKNOWN MODE:
+
+	+50% dmg from everything; +20% laser speed; Changed color of lasers.
+```
+
+**-->** [CS:GO] ze_Fapescape_rote - Hell Difficulty
+```"Fapescape_rote"
+	To use this:
+
+	Put "ze_fapescape_rote_v1_3.cfg" at "<your_server_folder>\csgo\addons\stripper\maps"
+
+	Put folder "sound" at "<your_server_folder>\csgo" also don't forget about FastDL to let people download new music.
+
+	Features of HELL DIFFICULTY:
+
+	1. Lightning from extreme mode will ignite players for 10 seconds, have +50% more damage, longer time to be active. But longer time to cast (+100%), periodically cast longer (+7 sec), much better vision to see.
+	2. All traps are 100% fatal
+	3. Bosses deal +25% more damage from all attacks (except few of them with modificators)
+	4. Every boss (except level 6 phase 2) have modificators (freeze / ignite / increased time of burning) and one of the dangerous attack, which can be almost fatal or critical
+	5. All bosses have 60-70% hp from original
+	6. Broken triggers effect: Many triggers will have unexpected time to be activaited (less \ more), chat is NOT typing the time to activate \ typing fake time \ typing random symbols
+	7. New music :)
+	Will you face the fear? Feeling brave? Try this out!
+
+	Thanks for https://steamcommunity.com/id/heyfumi/ for helping.
+```
+
+**-->** [CS:GO] Tyranny_v5_2k3 - Rage Mode
+
+```"Tyranny_v5_2k3"
+	To use this:
+
+	Put "Stripper/Tyranny_v5_2k3.cfg" at "<your_server_folder>\csgo\addons\stripper\maps" (stripper)
+	Put "EntWatch/Tyranny_v5_2k3.cfg" at "<your_server_folder>\csgo\cfg\EntWatch\maps" (entwatch)
+	Put folder "sound" at "<your_server_folder>\csgo" also don't forget about FastDL to let people download new music.
+
+	Features:
+
+	1. New materia, Staff of Kings. It has 16 effects (ultimative variations of materias for zombies, humans). Also contain extreme-danger MEGA-ULTIMA, which is dangerous for everyone.
+	2. Time randomization on many triggers
+	3. Bosses are more aggressive, and cast attacks faster, than usual.
+	4. Also new independent attacks for bosses on stage2 , stage4, stage5.
+	5. Staffs for humans are casting by 15% less ; Materias for zombies are casting by 15% longer
+	6. New endings for stage 4, stage 5.
+	7. 2 endings for stage 5 (teamwin as normal ending, survival as good ending).
+	8. Little lore, btw :D
 ```
