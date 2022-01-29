@@ -1,4 +1,4 @@
-[CS:GO] ze_Fapescape_rote - Hell Difficulty
+[CS:GO] ze_fapescape_rote_v1_3 - Hell Difficulty
 ```"Fapescape_rote"
 Features of HELL DIFFICULTY:
 

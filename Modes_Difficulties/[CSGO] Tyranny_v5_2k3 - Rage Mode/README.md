@@ -1,4 +1,4 @@
-[CS:GO] ze_Tyranny_v5_2k3 - Rage Mode
+[CS:GO] ze_tyranny_v5_2k3 - Rage Mode
 ```"Tyranny_v5_2k3"
 Features:
 

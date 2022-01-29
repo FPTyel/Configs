@@ -1,4 +1,4 @@
-[CS:GO] ze_Paramina_rift_r4 - ColorCorrection
+[CS:GO] ze_ffxii_paramina_rift_r4 - ColorCorrection
 ```"ze_Paramina_rift_r4"
 Makes map looks like more fantasy, with more natural \ lighter colors
 
