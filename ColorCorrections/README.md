@@ -6,5 +6,6 @@ List of maps with colorcorrection changes:
 [CS:GO] ze_harry_potter_v2_1_csgo
 [CS:GO] ze_lotr_minas_tirith_p5
 [CS:GO] ze_stalkermonolit_v8gofix1
+[CS:GO] ze_stalker_ultimate_v4_9
 [CS:GO] ze_tyranny_v5_2k3
 ```
