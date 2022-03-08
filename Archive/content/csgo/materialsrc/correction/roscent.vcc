@@ -1,0 +1,79 @@
+<!-- dmx encoding keyvalues2 1 format dmx 1 -->
+"DmeColorCorrectionOperatorList"
+{
+	"id" "elementid" "2b99cbe1-3553-48de-a4bb-d9be5e1956cf"
+	"operators" "element_array" 
+	[
+		"CDmeColorCorrectionCurvesOp"
+		{
+			"id" "elementid" "24c7169c-f7d6-49f6-851e-e9d390d26e30"
+			"blendFactor" "float" "0.784313798"
+			"channelMask" "int" "7"
+			"controlPoints" "vector3_array" 
+			[
+				"0 0 0",
+				"0 0 0",
+				"0 0 0",
+				"0 0 0",
+				"0 0 0",
+				"0.3141361177 0.5078533888 0",
+				"0.4973821938 0.7068063021 0",
+				"0.6387434602 0.9162303805 0",
+				"0.6439790726 0.9057591558 0",
+				"1 1 0",
+				"1 1 0",
+				"1 1 0",
+				"1 1 0",
+				"1 1 0"
+			]
+			"enabled" "bool" "1"
+			"name" "string" "Curve"
+		},
+		"CDmeColorCorrectionSelectedHSVOp"
+		{
+			"id" "elementid" "fcb27284-f567-4601-bcb8-5fba3183bad6"
+			"blendFactor" "float" "0.784313798"
+			"colorize" "bool" "0"
+			"deltaHSV" "vector3" "-5 0.4901961088 -0.0980392247"
+			"enabled" "bool" "1"
+			"fuzziness" "float" "0"
+			"invertSelection" "bool" "0"
+			"name" "string" "HSV"
+			"selectedHSVs" "vector3_array" 
+			[
+			]
+			"selectedRGBs" "vector3_array" 
+			[
+			]
+			"selectionMethod" "int" "1"
+			"tolerance" "float" "0.2000000179"
+		},
+		"CDmeColorCorrectionColorBalanceOp"
+		{
+			"id" "elementid" "c0598577-ef69-46a6-b10a-372a0ab68c0e"
+			"blendFactor" "float" "0.3137255013"
+			"cyanRedBalance" "float_array" 
+			[
+				"0",
+				"-40",
+				"-10"
+			]
+			"enabled" "bool" "1"
+			"magentaGreenBalance" "float_array" 
+			[
+				"0",
+				"-30",
+				"10"
+			]
+			"name" "string" "color"
+			"preserveLuminosity" "bool" "0"
+			"yellowBlueBalance" "float_array" 
+			[
+				"0",
+				"20",
+				"10"
+			]
+		}
+	]
+}
+
