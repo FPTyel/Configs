@@ -8,4 +8,5 @@ List of maps with colorcorrection changes:
 [CS:GO] ze_stalkermonolit_v8gofix1
 [CS:GO] ze_stalker_ultimate_v4_9
 [CS:GO] ze_tyranny_v5_2k3
+[CS:GO] ze_uchiha_legacy_cm2_fix
 ```
