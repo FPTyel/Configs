@@ -1,6 +1,8 @@
 [CS:GO] ze_uchiha_legacy_cm2_fix - EX-Mode
 ```"ze_uchiha_legacy_cm2_fix"
-This is an attempt to rebalance Uchiha, to make it more difficult, but still beatable and fun to play.
+This is an attempt to rebalance Uchiha, to make it more difficult, but still beatable and fun to play. V1.1
+
+Entwatch included, because of cooldown changes.
 
 Features:
 
@@ -24,7 +26,9 @@ Features:
 4.3. On level 3, balls from top are now appears more often, than before. Almost mist-experience, but may be harder.
 4.4. On level 4, no more bhop restrictions, and final platform breaks a little bit longer, than by default (6 > 10 seconds)
 
-5. Materias of humans are more weak: all items (except mokuton, rashomon) have decreased time to be active, 20% less (but no more, than 1.5 seconds). Zombie items are not touched.
+5. Materias of humans are more weak: all items (except mokuton, rashomon) have decreased time to be active, 20% less (but no more, than 1.5 seconds).
 
-6. Colorcorrection is changed, now it looks more fantasy with better saturation.
+6. Zombie items have 50% less cooldown.
+
+7. Colorcorrection is changed, now it looks more fantasy with better saturation.
 ```
