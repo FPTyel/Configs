@@ -8,7 +8,7 @@ Features:
 
 1. In many defend-spots increased time up to ~15 seconds. Need more defence overall.
 
-2. All cases with Obito appearing (fireball, nuke) happens with 100% chance (25% was before)
+2. All cases with Deidara / Madara appearing (fireball, nuke) happens with 100% chance (25% was before)
 
 3. Bosses:
 3.1. On level 1, Itachi casting attacks faster, up to 25%. Also have 15% more hp per human.
