@@ -1,0 +1,30 @@
+<!-- dmx encoding keyvalues2 1 format dmx 1 -->
+"DmeColorCorrectionOperatorList"
+{
+	"id" "elementid" "ebe23ab3-edd5-4469-a340-1c29a19a0927"
+	"operators" "element_array" 
+	[
+		"CDmeColorCorrectionSelectedHSVOp"
+		{
+			"id" "elementid" "8b775c0a-06dc-4cee-b3fc-c3dedf3db990"
+			"blendFactor" "float" "1"
+			"colorize" "bool" "0"
+			"deltaHSV" "vector3" "180 -0.0980392247 -0.1137254983"
+			"enabled" "bool" "1"
+			"fuzziness" "float" "0"
+			"invertSelection" "bool" "0"
+			"name" "string" "HSV"
+			"selectedHSVs" "vector3_array" 
+			[
+				"-1 0 0"
+			]
+			"selectedRGBs" "vector3_array" 
+			[
+				"0 0 0"
+			]
+			"selectionMethod" "int" "17"
+			"tolerance" "float" "1"
+		}
+	]
+}
+
