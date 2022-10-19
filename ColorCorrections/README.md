@@ -3,6 +3,7 @@ List of maps with colorcorrection changes:
 [CSGO] 666_crazy_escape_v2_4 #1
 [CSGO] AOT_Trost_v6_2 #1
 [CSGO] CosmoCanyon_v5k_fix #1
+[CSGO] Djinn_go1 #1
 [CSGO] Forsaken_temple_v3_b5 #1
 [CSGO] HarryPotter_v2_1_csgo #1
 [CSGO] MinasTirith_p5 #1
