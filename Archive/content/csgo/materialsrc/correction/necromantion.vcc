@@ -1,0 +1,47 @@
+<!-- dmx encoding keyvalues2 1 format dmx 1 -->
+"DmeColorCorrectionOperatorList"
+{
+	"id" "elementid" "2c20366c-128a-44c1-8a36-e9d772f4ee0b"
+	"operators" "element_array" 
+	[
+		"CDmeColorCorrectionCurvesOp"
+		{
+			"id" "elementid" "ffbcae10-11aa-45fb-927c-54b93012469f"
+			"blendFactor" "float" "0.5882353187"
+			"channelMask" "int" "7"
+			"controlPoints" "vector3_array" 
+			[
+				"0 0 0",
+				"0 0 0",
+				"0 0 0",
+				"0.3769633472 0.5549738407 0",
+				"0.6125654578 0.7853403091 0",
+				"1 1 0",
+				"1 1 0",
+				"1 1 0"
+			]
+			"enabled" "bool" "1"
+			"name" "string" "curves"
+		},
+		"CDmeColorCorrectionSelectedHSVOp"
+		{
+			"id" "elementid" "b40177d2-fa1f-4240-9057-567f2bf2bfea"
+			"blendFactor" "float" "0.9019608498"
+			"colorize" "bool" "0"
+			"deltaHSV" "vector3" "0 0.3137255013 -0.1176470667"
+			"enabled" "bool" "1"
+			"fuzziness" "float" "0"
+			"invertSelection" "bool" "0"
+			"name" "string" "hsv"
+			"selectedHSVs" "vector3_array" 
+			[
+			]
+			"selectedRGBs" "vector3_array" 
+			[
+			]
+			"selectionMethod" "int" "1"
+			"tolerance" "float" "0.2000000179"
+		}
+	]
+}
+
