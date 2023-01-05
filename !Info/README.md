@@ -41,7 +41,6 @@ List of kickers:
 - STEAM_0:0:209481083 (E.T1) (http://steamcommunity.com/profiles/76561198379227894);
 - STEAM_0:1:175332810 (Champagne) (http://steamcommunity.com/profiles/76561198310931349);
 - STEAM_0:1:455407733 (Extrime) (http://steamcommunity.com/profiles/76561198871081195);
-- STEAM_0:0:100441897 (Maestro) (http://steamcommunity.com/profiles/76561198161149522);
 - STEAM_0:0:147603023 (duda259) (https://steamcommunity.com/profiles/76561198255471774);
 - STEAM_0:0:97198275 (EA) (http://steamcommunity.com/profiles/76561198154662278);
 - STEAM_0:0:201740673 (Ben Solo) (http://steamcommunity.com/profiles/76561198363747074);
