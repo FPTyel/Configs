@@ -1,7 +1,3 @@
-GitHub is private, read !info to understand what happened
-
-=======================================================================================
-
 Archive - As it says - Archive of my non-released or released work, and original colorcorrection to build it easy. Most of all - it is for colorcorrection backup
 
 BalanceCorrection_Fixes - Contain fixes \ balance correction for maps, which is very helpful \ must-have to play map as well.
